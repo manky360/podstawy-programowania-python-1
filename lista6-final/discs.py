@@ -121,7 +121,7 @@ def len_from_disc(disc):                                                        
     """
     return (disc[0][0]**2+disc[0][1]**2)**.5
 
-def gen_discs(n=100,area=((-15,15),(-15,15)),r_lims=(.5,.5)):                   #generowanie n dysków na zadanym obszarze, o zadanym przedziale promieniu
+def gen_discs(n=100,area=((-15,15),(-15,15)),r_lims=(.5,.5)):                   #generowanie n dysków na zadanym obszarze, o promieniu z zadanego przedziału
     """Generate random discs on given area.
 
     Keyword arguments:
